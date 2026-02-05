@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mente Milionária</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+<style>
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:#000;
+color:#fff;
+}
+
+header{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:40px;
+background:linear-gradient(to bottom, #000, #111);
+}
+
+header img{
+width:180px;
+margin-bottom:20px;
+}
+
+h1{
+font-size:3rem;
+color:#d4af37;
+}
+
+p{
+font-size:1.1rem;
+max-width:650px;
+}
+
+.btn{
+background:#d4af37;
+color:#000;
+padding:18px 40px;
+border-radius:50px;
+font-weight:700;
+text-decoration:none;
+margin-top:25px;
+display:inline-block;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+background:#fff;
+}
+
+section{
+padding:80px 20px;
+text-align:center;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+background:#111;
+border:1px solid #d4af37;
+border-radius:20px;
+padding:30px;
+width:280px;
+}
+
+.card h3{
+color:#d4af37;
+}
+
+.guarantee{
+background:#d4af37;
+color:#000;
+}
+
+footer{
+background:#000;
+padding:30px;
+text-align:center;
+font-size:0.9rem;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="logo.png">
+<h1>MENTE MILIONÁRIA</h1>
+<p>O método definitivo para qualquer pessoa aprender a investir, empreender e criar riqueza mesmo começando do zero.</p>
+<a href="https://pay.kiwify.com.br/mgNA12b" class="btn">QUERO ACESSO IMEDIATO</a>
+</header>
+
+<section>
+<h2>O Que Você Vai Aprender</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>💰 Mentalidade Milionária</h3>
+<p>Reprograme sua mente para pensar como os ricos.</p>
+</div>
+
+<div class="card">
+<h3>📈 Investimentos Simples</h3>
+<p>Como investir com pouco dinheiro e segurança.</p>
+</div>
+
+<div class="card">
+<h3>🚀 Negócios Digitais</h3>
+<p>Crie fontes de renda online.</p>
+</div>
+
+<div class="card">
+<h3>🔥 Plano de Ação</h3>
+<p>Passo a passo para sair do zero.</p>
+</div>
+
+</div>
+</section>
+
+<section class="guarantee">
+<h2>Garantia de 7 Dias</h2>
+<p>Se não gostar, devolvemos 100% do seu dinheiro.</p>
+<a href="https://pay.kiwify.com.br/mgNA12b" class="btn">QUERO ENTRAR AGORA</a>
+</section>
+
+<footer>
+<p>© 2026 Mente Milionária - Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
